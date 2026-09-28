@@ -58,6 +58,6 @@ Matt Pocock Skills는 `.agents/skills`와 `.claude/skills`에 설치되어 있�
 
 ## 배포
 
-코드는 [비공개 GitHub 저장소](https://github.com/lls0312200-ai/voting-app-week4)의 `main`에 있습니다. Neon 무료 프로젝트 `voting-app-week4`에 `db/schema.sql`을 적용했고, Vercel Production에는 `DATABASE_URL`, `ADMIN_PASSWORD`, `SESSION_SECRET`을 비공개 환경변수로 설정했습니다. 배포 주소는 [voting-app-week4.vercel.app](https://voting-app-week4.vercel.app)입니다.
+코드는 [공개 GitHub 저장소](https://github.com/lls0312200-ai/voting-app-week4)의 `main`에 있습니다. Neon 무료 프로젝트 `voting-app-week4`에 `db/schema.sql`을 적용했고, Vercel Production에는 `DATABASE_URL`, `ADMIN_PASSWORD`, `SESSION_SECRET`을 비공개 환경변수로 설정했습니다. 배포 주소는 [voting-app-week4.vercel.app](https://voting-app-week4.vercel.app)입니다.
 
-이 프로젝트는 Vercel CLI로 배포했습니다. GitHub 저장소와 Vercel의 자동 배포 연동은 없으므로, 코드를 바꾸면 이 폴더에서 `npx --yes vercel@latest deploy --prod --yes`를 다시 실행해야 합니다. 비공개 저장소 링크를 제출받는 사람이 열려면 그 사람에게 GitHub 접근 권한이 필요합니다. 제출 정보는 상위 폴더의 `과제-제출.md`에 기록했습니다.
+이 프로젝트는 Vercel CLI로 배포했습니다. GitHub 저장소와 Vercel의 자동 배포 연동은 없으므로, 코드를 바꾸면 이 폴더에서 `npx --yes vercel@latest deploy --prod --yes`를 다시 실행해야 합니다. 제출 정보는 상위 폴더의 `과제-제출.md`에 기록했습니다.
